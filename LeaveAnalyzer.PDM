@@ -1,0 +1,136 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Source Codes\MoH\LeaveAnalyzer\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Windows\System32\msstdfmt.dll=
+C:\Windows\System32\ButtonEx.ocx=
+D:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files\Common Files\System\ado\msado28.tlb=
+C:\Windows\System32\msscript.ocx=
+C:\Windows\System32\scrobj.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\tabctl32.ocx=
+C:\Windows\System32\msdatlst.ocx=
+C:\Windows\System32\msdatgrd.ocx=
+C:\Windows\System32\msflxgrd.ocx=
+C:\Windows\System32\comct332.ocx=
+C:\Windows\System32\MSCOMCT2.OCX=
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\comdlg32.ocx=
+C:\Windows\System32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Source Codes\MoH\LeaveAnalyzer\LeaveAnalyzer.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\scrobj.dll=Yes
+C:\Windows\System32\msscript.ocx=Yes
+C:\Windows\System32\scrrun.dll=Yes
+C:\Windows\System32\msvcrt.dll=Yes
+C:\Program Files\Common Files\System\ado\msado28.tlb=Yes
+D:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Windows\System32\ButtonEx.ocx=Yes
+C:\Windows\System32\comdlg32.ocx=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\comct332.ocx=Yes
+C:\Windows\System32\msflxgrd.ocx=Yes
+C:\Windows\System32\msdatgrd.ocx=Yes
+C:\Windows\System32\msstdfmt.dll=Yes
+C:\Windows\System32\msdatlst.ocx=Yes
+C:\Windows\System32\tabctl32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Source Codes\MoH\LeaveAnalyzer\LeaveAnalyzer.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\scrobj.dll=$(WinSysPath)
+C:\Windows\System32\msscript.ocx=$(WinSysPath)
+C:\Windows\System32\scrrun.dll=$(WinSysPath)
+C:\Windows\System32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado28.tlb=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Windows\System32\ButtonEx.ocx=$(WinSysPath)
+C:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\comct332.ocx=$(WinSysPath)
+C:\Windows\System32\msflxgrd.ocx=$(WinSysPath)
+C:\Windows\System32\msdatgrd.ocx=$(WinSysPath)
+C:\Windows\System32\msstdfmt.dll=$(WinSysPath)
+C:\Windows\System32\msdatlst.ocx=$(WinSysPath)
+C:\Windows\System32\tabctl32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Source Codes\MoH\LeaveAnalyzer\LeaveAnalyzer.exe=No
+D:\Program Files\Microsoft Office\Office12\EXCEL.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=LeaveAnalyzer
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=LeaveAnalyzer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|LeaveAnalyzer]
+Icon1=LeaveAnalyzer.exe
+Title1=LeaveAnalyzer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Source Codes\MoH\LeaveAnalyzer\Package
+ProjectFolder=D:\Source Codes\MoH\LeaveAnalyzer
+ServerSideCab=
+File1=D:\Source Codes\MoH\LeaveAnalyzer\Package\setup.exe
+File2=D:\Source Codes\MoH\LeaveAnalyzer\Package\Setup.Lst
+File3=D:\Source Codes\MoH\LeaveAnalyzer\Package\LeaveAnalyzer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
